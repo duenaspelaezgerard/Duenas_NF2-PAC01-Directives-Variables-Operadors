@@ -46,7 +46,6 @@ if (($_SESSION['username'] == "GERARD") and ($_SESSION['contrasenya'] == '12345'
     echo "Clica aqui para ver cual es mi deporte favorito"; 
     echo "</a>";
     echo "<br/>";
-    echo "<br/>";
     
     $estadio = urlencode("Mi estadio favorito es el Camp Nou");
     echo "<a href='CODIGO_1.php?estadio=$estadio'>";
