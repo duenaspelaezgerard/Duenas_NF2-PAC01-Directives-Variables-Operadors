@@ -8,7 +8,7 @@ $_SESSION['password'] = $_POST['contrasenya'];
 if (($_SESSION['username'] == "GERARD") and ($_SESSION['password'] == '12345')) {
     echo "Las cookies guardadas son: ";
     echo "<br>";
-    echo $_COOKIE["fruta"];
+    echo $_COOKIE["comida"];
     echo "<br>";
     echo $_COOKIE["alcohol"];
     echo date("Y-m-d H:i:s");
@@ -33,11 +33,12 @@ if (($_SESSION['username'] == "GERARD") and ($_SESSION['password'] == '12345')) 
  </head>
  <body>
 <?php
-    echo " My deporte favorito es ";
+    echo "<br/>";
+    echo " Mi deporte favorito es ";
     echo $_GET['deporte='] ?? 'N/C';
+    
     echo " <br/>";
-   
-    echo " My estadio favorito es ";
+    echo " Mi estadio favorito es ";
     echo $_GET['estadio'] ?? 'N/C';
     echo "<br/>";
 
