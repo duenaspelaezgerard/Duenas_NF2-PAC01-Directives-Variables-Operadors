@@ -11,6 +11,7 @@ if (($_SESSION['username'] == "GERARD") and ($_SESSION['password'] == '12345')) 
     echo $_COOKIE["comida"];
     echo "<br>";
     echo $_COOKIE["alcohol"];
+    echo "<br>";
     echo date("Y-m-d H:i:s");
     echo "<br/>";
     echo "Mi jugador favorito es: ";
@@ -29,13 +30,13 @@ if (($_SESSION['username'] == "GERARD") and ($_SESSION['password'] == '12345')) 
 ?>
 <html>
  <head>
-  <title>Cual son mis gustos preferidos?</title>
+  <title>Cual son mis gustos?</title>
  </head>
  <body>
 <?php
     echo "<br/>";
     echo " Mi deporte favorito es ";
-    echo $_GET['deporte='] ?? 'N/C';
+    echo $_GET['deporte'] ?? 'N/C';
     
     echo " <br/>";
     echo " Mi estadio favorito es ";
