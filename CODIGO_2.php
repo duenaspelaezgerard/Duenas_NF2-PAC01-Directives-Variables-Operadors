@@ -5,7 +5,7 @@ $_SESSION['username'] = $_POST['usuario'];
 $_SESSION['password'] = $_POST['contrasenya'];
 
 
-if (($_SESSION['username'] == "GERARD") and ($_SESSION['contrasenya'] == '12345')) {
+if (($_SESSION['username'] == "GERARD") and ($_SESSION['password'] == '12345')) {
     echo "Las cookies guardadas son: ";
     echo "<br>";
     echo $_COOKIE["fruta"];
